@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#08100B" />
+  <title>Forge — Build brighter products, ship them faster</title>
+  <meta name="description" content="Forge is the all-in-one workspace where teams design, build and launch digital products — instant deploys, real-time analytics and security that never sleeps." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23B8FF3C'/%3E%3Cpath d='M22 46V18h22v7H30v6h12v7H30v8z' fill='%2308100B'/%3E%3C/svg%3E" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="site-header" id="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Forge — home">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+            <path d="M7 20V4h11v3.6h-7.2v3.2h6v3.6h-6V20H7Z" />
+          </svg>
+        </span>
+        <span class="brand__name">Forge</span>
+      </a>
+
+      <nav class="nav__menu" id="nav-menu" aria-label="Primary">
+        <ul class="nav__list">
+  <li><a class="nav__link is-active" href="index.html">Home</a></li>
+  <li><a class="nav__link" href="features.html">Features</a></li>
+  <li><a class="nav__link" href="testimonials.html">Testimonials</a></li>
+  <li><a class="nav__link" href="contact.html">Contact</a></li>
+</ul>
+        <a class="btn btn--primary btn--sm nav__cta" href="contact.html">Get started</a>
+      </nav>
+
+      <button class="nav__toggle" id="nav-toggle" type="button"
+              aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="orb orb--1" aria-hidden="true"></div>
+      <div class="orb orb--2" aria-hidden="true"></div>
+
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <p class="eyebrow reveal">
+            <span class="eyebrow__dot" aria-hidden="true"></span>
+            New — Forge 3.0 is live
+          </p>
+
+          <h1 class="hero__title reveal" style="--delay:.06s">
+            Build <em>brighter</em> products, ship them faster.
+          </h1>
+
+          <p class="hero__lead reveal" style="--delay:.12s">
+            Forge is the all-in-one workspace where teams design, build and launch —
+            with instant deploys, real-time analytics and security that never sleeps.
+          </p>
+
+          <div class="hero__actions reveal" style="--delay:.18s">
+            <a class="btn btn--primary" href="#contact">Start free trial</a>
+            <a class="btn btn--ghost" href="#features">
+              See how it works
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+            </a>
+          </div>
+
+          <ul class="hero__stats reveal" style="--delay:.24s">
+            <li><strong>12k+</strong><span>Teams shipping daily</span></li>
+            <li><strong>99.98%</strong><span>Uptime SLA</span></li>
+            <li><strong>4.9/5</strong><span>Average rating</span></li>
+          </ul>
+        </div>
+
+        <!-- Product mock -->
+        <div class="hero__visual reveal" style="--delay:.2s" aria-hidden="true">
+          <div class="mock">
+            <div class="mock__top">
+              <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+              <span class="mock__url">app.forge.dev/deployments</span>
+            </div>
+
+            <div class="mock__body">
+              <div class="mock__head">
+                <div>
+                  <p class="mock__label">Deployments this week</p>
+                  <p class="mock__value">1,284</p>
+                </div>
+                <span class="badge badge--accent">+18.4%</span>
+              </div>
+
+              <div class="chart">
+                <span style="--h:38%"></span>
+                <span style="--h:62%"></span>
+                <span style="--h:46%"></span>
+                <span style="--h:78%"></span>
+                <span style="--h:56%"></span>
+                <span style="--h:92%"></span>
+                <span style="--h:70%"></span>
+              </div>
+
+              <ul class="mock__list">
+                <li><span class="avatar">AK</span><span class="line w70"></span><span class="badge">Live</span></li>
+                <li><span class="avatar">MR</span><span class="line w50"></span><span class="badge">Build</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="float-card">
+            <span class="float-card__icon">✓</span>
+            <div><strong>Deploy succeeded</strong><span>in 8.2s</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <section class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>INSTANT DEPLOYS</span><i></i>
+        <span>REAL-TIME ANALYTICS</span><i></i>
+        <span>TEAM COLLABORATION</span><i></i>
+        <span>BANK-GRADE SECURITY</span><i></i>
+        <span>SMART AUTOMATIONS</span><i></i>
+        <span>24/7 SUPPORT</span><i></i>
+        <span>INSTANT DEPLOYS</span><i></i>
+        <span>REAL-TIME ANALYTICS</span><i></i>
+        <span>TEAM COLLABORATION</span><i></i>
+        <span>BANK-GRADE SECURITY</span><i></i>
+        <span>SMART AUTOMATIONS</span><i></i>
+        <span>24/7 SUPPORT</span><i></i>
+      </div>
+    </section>
+
+    <!-- ============ FEATURES ============ -->
+    <section class="features" id="features">
+      <div class="container">
+        <header class="section-head section-head--center">
+          <p class="eyebrow reveal">Everything you need</p>
+          <h2 class="section-title reveal" style="--delay:.06s">
+            One workspace. <em>Zero</em> friction.
+          </h2>
+          <p class="section-lead reveal" style="--delay:.12s">
+            Stop stitching together six tools. Forge gives your team a single, fast,
+            reliable place to plan, build and ship.
+          </p>
+        </header>
+
+        <div class="bento">
+          <!-- Big card -->
+          <article class="bento__card bento__card--big reveal">
+            <span class="bento__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4.6 13.2H11l-1.2 8.8L18.4 10H12l1-8Z"/></svg>
+            </span>
+            <h3>Instant deploys, zero wait</h3>
+            <p>Push to main and watch your product go live in seconds. Rollbacks are one click. Preview environments spin up for every pull request automatically.</p>
+
+            <div class="bento__graph" aria-hidden="true">
+              <span style="--h:30%"></span>
+              <span style="--h:55%"></span>
+              <span style="--h:42%"></span>
+              <span style="--h:70%"></span>
+              <span style="--h:58%"></span>
+              <span style="--h:88%"></span>
+              <span style="--h:74%"></span>
+              <span style="--h:95%"></span>
+            </div>
+          </article>
+
+          <article class="bento__card reveal">
+            <span class="bento__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18"/><path d="M7 20v-6"/><path d="M12 20V10"/><path d="M17 20v-4"/><path d="M7 9l4-4 3 3 4-5"/></svg>
+            </span>
+            <h3>Real-time analytics</h3>
+            <p>Live dashboards that show exactly how your product is performing.</p>
+          </article>
+
+          <article class="bento__card reveal">
+            <span class="bento__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 19v-1.5a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4V19"/><circle cx="9.5" cy="7" r="3.2"/><path d="M21 19v-1.5a4 4 0 0 0-3-3.87"/><path d="M15.5 4.2a3.2 3.2 0 0 1 0 6.1"/></svg>
+            </span>
+            <h3>Team collaboration</h3>
+            <p>Comments, reviews and shared previews keep everyone aligned.</p>
+          </article>
+
+          <article class="bento__card reveal">
+            <span class="bento__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 5 6v5.5c0 4.4 2.9 7.6 7 9 4.1-1.4 7-4.6 7-9V6l-7-3Z"/><path d="m9.2 12 2 2 3.6-4"/></svg>
+            </span>
+            <h3>Bank-grade security</h3>
+            <p>SOC 2 Type II, SSO, granular roles and encrypted secrets.</p>
+          </article>
+
+          <article class="bento__card reveal">
+            <span class="bento__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/><path d="M10 6.5h4A3.5 3.5 0 0 1 17.5 10v4"/></svg>
+            </span>
+            <h3>Smart automations</h3>
+            <p>Chain builds, tests and notifications into flows that run themselves.</p>
+          </article>
+
+          <article class="bento__card bento__card--wide reveal">
+            <div class="bento__row">
+              <div>
+                <span class="bento__icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-8 8H8l-5 3 1.3-4.3A8 8 0 1 1 21 12Z"/><path d="M8.5 11.5h7"/><path d="M8.5 15h4"/></svg>
+                </span>
+                <h3>24/7 human support</h3>
+                <p>Real engineers on chat, around the clock. Median first response: under four minutes.</p>
+              </div>
+              <div class="bento__pill">
+                <span class="pulse"></span>
+                Online now
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <header class="section-head section-head--center">
+          <p class="eyebrow eyebrow--dark reveal">Loved by builders</p>
+          <h2 class="section-title reveal" style="--delay:.06s">Teams ship faster on Forge</h2>
+          <p class="section-lead reveal" style="--delay:.12s">
+            Don't take our word for it — here's what people building real products have to say.
+          </p>
+        </header>
+
+        <div class="testimonial-grid">
+          <figure class="testimonial reveal">
+            <div class="stars" aria-label="5 out of 5 stars">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.6 7 .9-5.1 4.8 1.3 7L12 18l-6.2 3.3 1.3-7L2 9.5l7-.9L12 2Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.6 7 .9-5.1 4.8 1.3 7L12 18l-6.2 3.3 1.3-7L2 9.5l7-.9L12 2Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.6 7 .9-5.1 4.8 1.3 7L12 18l-6.2 3.3 1.3-7L2 9.5l7-.9L12 2Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.6 7 .9-5.1 4.8 1.3 7L12 18l-6.2 3.3 1.3-7L2 9.5l7-.9L12 2Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.6 7 .9-5.1 4.8 1.3 7L12 18l-6.2 3.3 1.3-7L2 9.5l7-.9L12 2Z"/></svg>
+            </div>
+            <blockquote>
+              “We cut our release cycle from two weeks to two days. The deploy pipeline
+              just works — nobody on my team thinks about infrastructure anymore.”
+            </blockquote>
+            <figcaption class="testimonial__author">
+              <span class="avatar avatar--lg">SO</span>
+              <span><strong>Sofia Okonkwo</strong><em>Head of Engineering, Northwind</em></span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial reveal">
+            <div class="stars" aria-label="5 out of 5 stars">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.6 7 .9-5.1 4.8 1.3 7L12 18l-6.2 3.3 1.3-7L2 9.5l7-.9L12 2Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.6 7 .9-5.1 4.8 1.3 7L12 18l-6.2 3.3 1.3-7L2 9.5l7-.9L12 2Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.6 7 .9-5.1 4.8 1.3 7L12 18l-6.2 3.3 1.3-7L2 9.5l7-.9L12 2Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.6 7 .9-5.1 4.8 1.3 7L12 18l-6.2 3.3 1.3-7L2 9.5l7-.9L12 2Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.6 7 .9-5.1 4.8 1.3 7L12 18l-6.2 3.3 1.3-7L2 9.5l7-.9L12 2Z"/></svg>
+            </div>
+            <blockquote>
+              “The analytics alone paid for it. We spotted a drop-off in onboarding on day
+              one and fixed it before the week was out.”
+            </blockquote>
+            <figcaption class="testimonial__author">
+              <span class="avatar avatar--lg">DL</span>
+              <span><strong>Daniel Larsen</strong><em>Product Lead, Kaleido</em></span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial reveal">
+            <div class="stars" aria-label="5 out of 5 stars">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.6 7 .9-5.1 4.8 1.3 7L12 18l-6.2 3.3 1.3-7L2 9.5l7-.9L12 2Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.6 7 .9-5.1 4.8 1.3 7L12 18l-6.2 3.3 1.3-7L2 9.5l7-.9L12 2Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.6 7 .9-5.1 4.8 1.3 7L12 18l-6.2 3.3 1.3-7L2 9.5l7-.9L12 2Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.6 7 .9-5.1 4.8 1.3 7L12 18l-6.2 3.3 1.3-7L2 9.5l7-.9L12 2Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.6 7 .9-5.1 4.8 1.3 7L12 18l-6.2 3.3 1.3-7L2 9.5l7-.9L12 2Z"/></svg>
+            </div>
+            <blockquote>
+              “Support answered in three minutes on a Sunday. That's the moment I stopped
+              shopping around for alternatives.”
+            </blockquote>
+            <figcaption class="testimonial__author">
+              <span class="avatar avatar--lg">PR</span>
+              <span><strong>Priya Raman</strong><em>Founder, Studio Halcyon</em></span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <div class="orb orb--3" aria-hidden="true"></div>
+
+      <div class="container contact__inner">
+        <div class="contact__intro">
+          <p class="eyebrow reveal">Get in touch</p>
+          <h2 class="section-title reveal" style="--delay:.06s">
+            Let's build something worth <em>shipping</em>.
+          </h2>
+          <p class="section-lead reveal" style="--delay:.12s">
+            Tell us about your project and we'll get back to you within one business day.
+            No sales scripts, just answers.
+          </p>
+
+          <ul class="contact__details reveal" style="--delay:.18s">
+            <li>
+              <span class="contact__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7.5 8 5.5 8-5.5"/></svg>
+              </span>
+              <a href="mailto:hello@forge.dev">hello@forge.dev</a>
+            </li>
+            <li>
+              <span class="contact__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 3h3l1.5 4-2 1.5a12 12 0 0 0 6.5 6.5l1.5-2 4 1.5v3a2 2 0 0 1-2.2 2A17 17 0 0 1 4.5 5.2 2 2 0 0 1 6.5 3Z"/></svg>
+              </span>
+              <a href="tel:+15551234567">+1 (555) 123-4567</a>
+            </li>
+            <li>
+              <span class="contact__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              </span>
+              <span>221B Kiln Street, Lisbon, Portugal</span>
+            </li>
+          </ul>
+        </div>
+
+        <form class="form" id="contact-form" novalidate>
+          <div class="form__row">
+            <div class="field">
+              <label for="name">Full name <span aria-hidden="true">*</span></label>
+              <input id="name" name="name" type="text" autocomplete="name"
+                     placeholder="Ada Lovelace" aria-describedby="name-error" />
+              <p class="field__error" id="name-error" aria-live="polite"></p>
+            </div>
+
+            <div class="field">
+              <label for="email">Email <span aria-hidden="true">*</span></label>
+              <input id="email" name="email" type="email" autocomplete="email"
+                     placeholder="you@company.com" aria-describedby="email-error" />
+              <p class="field__error" id="email-error" aria-live="polite"></p>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="topic">What do you need?</label>
+            <select id="topic" name="topic">
+              <option value="product">Product demo</option>
+              <option value="pricing">Pricing &amp; plans</option>
+              <option value="migration">Migrating from another tool</option>
+              <option value="other">Something else</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="message">Message <span aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" rows="5"
+                      placeholder="Tell us a little about your team and what you're building…"
+                      aria-describedby="message-error"></textarea>
+            <p class="field__error" id="message-error" aria-live="polite"></p>
+          </div>
+
+          <button class="btn btn--primary btn--full" type="submit" id="submit-btn">
+            <span class="btn__label">Send message</span>
+          </button>
+
+          <p class="form__note">
+            We'll only use your details to reply. No newsletters, no sharing.
+          </p>
+          <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__top">
+        <div>
+          <a class="brand" href="#home">
+            <span class="brand__mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M7 20V4h11v3.6h-7.2v3.2h6v3.6h-6V20H7Z" />
+              </svg>
+            </span>
+            <span class="brand__name">Forge</span>
+          </a>
+          <p class="site-footer__tag">Design, build and ship — all in one place.</p>
+        </div>
+
+        <ul class="site-footer__links">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="features.html">Features</a></li>
+  <li><a href="testimonials.html">Testimonials</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+      </div>
+
+      <p class="site-footer__copy">
+        © <span id="year"></span> Forge Labs. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
