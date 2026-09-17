@@ -3,7 +3,7 @@
 A responsive 4-page landing website built with vanilla HTML, CSS, and JavaScript.
 
 ## Live Demo
-https://YOUR-USERNAME.github.io/forge-landing/
+https://ahmadali-01.github.io/forge-landing/
 
 ## Pages
 - `index.html` — Home
